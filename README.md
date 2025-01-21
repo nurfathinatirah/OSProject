@@ -7,7 +7,7 @@ Section: __Fill your class section__.
 Team Mates:
 1. __Fill name__ and __matric no__
 2. __Fill name__ and __matric no__
-3. __Fill name__ and __matric no__
+3. __Wan Muhammad Arif bin Wan Azman__ and __2212119__
 4. Siti Maisarah binti Abdul Aziz 2316456
 
 ## Rules
