@@ -387,12 +387,12 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
-__➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
-total 4
--rw-rw-rw- 1 root root 10 Jan 25 11:33 helloworld.txt
--' rw-rw-rw-' indicates that the file can be access by everyone for reading and writing.
--' root root ' indicates that the owner is root and the group is also root.__
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)***<br>
+__➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot__ <br>
+__total 4__ <br>
+__-rw-rw-rw- 1 root root 10 Jan 25 11:33 helloworld.txt__ <br>
+__-' rw-rw-rw-' indicates that the file can be access by everyone for reading and writing.__ <br>
+__-' root root ' indicates that the owner is root and the group is also root.__ <br>
 
 3. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
