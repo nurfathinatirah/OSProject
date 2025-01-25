@@ -6,9 +6,9 @@ Section: __Fill your class section__.
 
 Team Mates:
 1. __Fill name__ and __matric no__
-2. Nur Balqis binti Sazalee 2218348
-3. __Wan Muhammad Arif bin Wan Azman__ and __2212119__
-4. Siti Maisarah binti Abdul Aziz 2316456
+2. __Nur Balqis binti Sazalee 2218348__
+3. __Wan Muhammad Arif bin Wan Azman 2212119__
+4. __Siti Maisarah binti Abdul Aziz 2316456__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -365,8 +365,10 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+__No because the container's filesystem is temporary and not permanent.__
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
+__Yes, several instances can be run at a same time by using Docker.__
 
 ## Running your own container with persistent storage
 
@@ -385,14 +387,23 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
-2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
+__➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
+total 4
+-rw-rw-rw- 1 root root 10 Jan 25 11:33 helloworld.txt
+-' rw-rw-rw-' indicates that the file can be access by everyone for reading and writing.
+-' root root ' indicates that the owner is root and the group is also root.__
+
+3. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+__Yes, the permission of the files can be change. After using sudo and chown, the permission change to user codespace. This can be prove after confirming using the following command:
+➜ /workspaces/OSProject/myroot (main) $ ls -l /workspaces/OSProject/myroot
+total 4
+-rw-rw-rw- 1 codespace codespace 10 Jan 25 11:33 helloworld.txt__
 
 ## You are on your own, create your own static webpage
 
