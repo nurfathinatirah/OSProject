@@ -302,10 +302,10 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5932.4 avail Mem
 11. What is the available free memory in the system. ***(1 mark)*** 5932.4 MiB.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** 20408676 KB.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** Linux codespaces-851103 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** **ls** command will only show the names of files and directory in the current directory while the command **ls -asl** display all files including hidden files, size of each file and detailed information for each file.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 2560 4K pages.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 3101.746 MHz.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 4105 codespa+  20   0   41.5g 312760  50304 S   1.3   3.9   0:19.92 node.
 
 ## Running your own container instance.
 
