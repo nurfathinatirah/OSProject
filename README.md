@@ -1,4 +1,4 @@
-# OSProject Running Containers for Application Development
+edr n# OSProject Running Containers for Application Development
 
 Group Name: __Fill your team name__. 
 
@@ -627,7 +627,7 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** The output of stef 5 is Cannot GET / which indicate a server error. .
 2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
 
 
