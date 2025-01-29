@@ -26,8 +26,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** (https://github.com/hoshiyoruu/OSProject).
-2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
-
+2. How many files and folders are in this repository. ***(1 mark)*** 1 file (README.md) and 1 folder (images) which consist of 6 PNG files.
 
 ## Exploring github codespaces
 
