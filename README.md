@@ -78,6 +78,7 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** /workspaces/OSProject.
+
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -103,6 +104,7 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin.
+
 3. Run the command **df** . ***(1 mark)*** //?Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10744904  20408676  35% /
 tmpfs              65536        0     65536   0% /dev
@@ -198,14 +200,20 @@ shm                65536        0     65536   0% /dev/shm
 2628    ./.git
 1972    ./images
 4624    ..
+
 5. Run the command **ls** . ***(1 mark)*** README.md  images.
+
 6. Run the command **ls -asl** . ***(1 mark)*** total 36
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 21 03:42 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jan 21 03:42 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 21 03:42 .git
 20 -rw-rw-rw-  1 codespace root 17468 Jan 21 04:34 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 21 03:42 images.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
+
+7. Run the command **free -h** . ***(1 mark)*** total        used        free      shared  buff/cache   available
+Mem:          7.7Gi       1.1Gi       222Mi        61Mi       6.4Gi       6.3Gi
+Swap:            0B          0B          0B
+
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -261,6 +269,7 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:.
+
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** processor       : 1
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -298,13 +307,21 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5932.4 avail Mem
    4614 codespa+  20   0   11.0g  56116  43520 S   0.0   0.7   0:00.22 node                   
    4647 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.01 sh                     
    4698 root      20   0    2616   1536   1536 S   0.0   0.0   0:00.00 sh    .
+   
 10. Run the command **uname -a**. ***(1 mark)*** Linux codespaces-851103 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux.
+
 11. What is the available free memory in the system. ***(1 mark)*** 5932.4 MiB.
+
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** 20408676 KB.
+
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** Linux codespaces-851103 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux.
+
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** **ls** command will only show the names of files and directory in the current directory while the command **ls -asl** display all files including hidden files, size of each file and detailed information for each file.
+
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 2560 4K pages.
+
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 3101.746 MHz.
+
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 4105 codespa+  20   0   41.5g 312760  50304 S   1.3   3.9   0:19.92 node.
 
 ## Running your own container instance.
