@@ -627,10 +627,18 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** The output of stef 5 is Cannot GET / which indicate a server error. .
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** The output of step 5 is **Server Error** which is error in executing query. This is because a table mytable was not created yet hence, the Node.js server tried to query a non-existence table. This error also occured because of no connection established between the two networks yet.
 
-
+2. Show the instruction needed to make this work. ***(1 mark)*** To create table in database:
+    1. Enter mysql-container
+    2. Enter command USE mydatabase;
+    3. Create table mytable
+    4. Insert information
+    5. Exit
+To bridge nodejs-container and mysql-container:
+    1. Create new network named bridgenet
+    2. Connect bridgenet with nodejs-container
+    3. Connect bridgenet with mysql-container
 
 ## What to submit
 
