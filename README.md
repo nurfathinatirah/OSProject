@@ -25,8 +25,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** (https://github.com/hoshiyoruu/OSProject).
-2. How many files and folders are in this repository. ***(1 mark)*** 1 file (README.md) and 1 folder (images) which consist of 6 PNG files.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** -__(https://github.com/hoshiyoruu/OSProject).__
+2. How many files and folders are in this repository. ***(1 mark)*** __1 file (README.md) and 1 folder (images) which consist of 6 PNG files.__
 
 ## Exploring github codespaces
 
@@ -57,9 +57,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** Ubuntu Linux.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***  2 cores, 8 GB RAM, 32 GB storage and 32 cores, 64 GB RAM, 128 GB storage.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** We must commit and sync our current work on source control to prevent data loss, save changes and track history.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Ubuntu Linux.__
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)***  __2 cores, 8 GB RAM, 32 GB storage and 32 cores, 64 GB RAM, 128 GB storage.__
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** __We must commit and sync our current work on source control to prevent data loss, save changes and track history.__
 
 ## Exploring the Terminal
 
