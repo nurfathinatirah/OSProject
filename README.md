@@ -866,9 +866,11 @@ docker inspect c2
 __the gateway for docker inspect c1 = 172.18.0.1
 the gateway for docker inspect c2 = 172.19.0.1__
 .
+
 4. What is the network address for the running container c1 and c2? ***(1 mark)*** 
 __network address for c1 = 172.18.0.0/16
 network address for c2 = 172.19.0.0/16__.
+
 5. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 __PING 172.18.0.4 (172.18.0.4): 56 data bytes
 64 bytes from 172.18.0.4: seq=0 ttl=64 time=0.130 ms
