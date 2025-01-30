@@ -892,8 +892,19 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)***
+   __PING <c2_IP_address> (<c2_IP_address>): 56 data bytes
+64 bytes from <c2_IP_address>: seq=0 ttl=64 time=0.123 ms
+64 bytes from <c2_IP_address>: seq=1 ttl=64 time=0.234 ms
+64 bytes from <c2_IP_address>: seq=2 ttl=64 time=0.456 ms
+64 bytes from <c2_IP_address>: seq=3 ttl=64 time=0.389 ms
+--- <c2_IP_address> ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max = 0.123/0.300/0.456 ms__.
+
+2. What is different from the previous ping in the section above? ***(1 mark)***
+ __the key difference from the previous section is that the two containers are now connected via a new bridge network (bridgenet). This creates a virtual network bridge that allows containers from different subnets to communicate with each other. In the previous configuration, the containers were either on the same network or on isolated networks, which could have caused communication issues.
+With bridgenet, Docker manages the IP routing and provides a bridge between the two containers, even if they are in different subnets (assuming they have valid network routes)__.
 
 ## Intermediate Level (10 marks bonus)
 
