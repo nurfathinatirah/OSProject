@@ -1,14 +1,14 @@
 edr n# OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __3__. 
 
-Section: __Fill your class section__. 
+Section: __7__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
-2. __Nur Balqis binti Sazalee 2218348__
-3. __Wan Muhammad Arif bin Wan Azman 2212119__
-4. __Siti Maisarah binti Abdul Aziz 2316456__
+1. __Nur Balqis binti Sazalee 2218348__
+2. __Wan Muhammad Arif bin Wan Azman 2212119__
+3. __Siti Maisarah binti Abdul Aziz 2316456__
+4. __Nurfathin Atirah binti Mohammad Udin 2118168__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -444,9 +444,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __drwxr-sr-x 2 1000 1000 4096 Jan 30 12:42 /usr/local/apache2/htdocs , root root__.
+2. What port is the apache web server running. ***(1 mark)*** __ 80 __.
+3. What port is open for http protocol on the host machine? ***(1 mark)*** __8080__.
 
 ## Create SUB Networks
 
